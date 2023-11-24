@@ -82,8 +82,12 @@ body {
      background-color: rgba(224, 161, 42, 0.938);
 }
 
-.main-menu > ul > li:hover >.drop {
+.main-menu > ul > li:hover .drop {
     display: block;
+}
+
+.lSPager {
+    margin-top: -25px !important;
 }
 
 .content-holder {
@@ -91,4 +95,35 @@ body {
     justify-content: space-between;
     background-color: cornflowerblue;
     border-bottom: 1px solid gainsboro;
+}
+
+.content-holder .content {
+    padding: 25px;
+    background-color: #fff;
+    width: 80%;
+}
+
+.content-holder .content  h1 ~ h2 {
+    font-size: 1em;
+    color: darkgray;
+}
+
+.slidebar {
+    padding: 25px;
+    width: 20%;
+}
+
+.slidebar .widget h3 {
+    color: #fff;
+}
+
+.slidebar .widget ul {
+     list-style-type: none;
+     padding: 0;
+     margin: 0;
+}
+
+.slidebar .widget ul > li > a {
+    color: #fff;
+    text-decoration: none;
 }
