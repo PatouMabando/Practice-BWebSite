@@ -108,22 +108,47 @@ body {
     color: darkgray;
 }
 
-.slidebar {
+.sidebar {
     padding: 25px;
     width: 20%;
 }
 
-.slidebar .widget h3 {
+.sidebar .widget h3 {
     color: #fff;
 }
 
-.slidebar .widget ul {
+.sidebar .widget ul,
+.footer-widget ul {
      list-style-type: none;
-     padding: 0;
-     margin: 0;
+     padding: 0px;
+     margin: 0px;
 }
 
-.slidebar .widget ul > li > a {
-    color: #fff;
+.sidebar .widget ul > li > a,
+.footer-widget ul > li > a {
+    color: #4d3f3f;
     text-decoration: none;
+}
+
+.sidebar .widget ul > li > a:hover {
+    color: black;
+}
+
+.footer-widget-holder {
+    display: flex;
+    border-color: rgb(31, 31, 31);
+    color: #332f2f;
+    justify-content: space-around;
+}
+
+.footer-widget {
+    padding: 25px;
+    font-size: small;
+}
+
+.site-footer {
+    background-color: black;
+    color: white;
+    padding: 25px;
+    text-align: center;
 }
